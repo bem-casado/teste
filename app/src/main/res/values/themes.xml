@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Shell2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Você pode personalizar seu tema aqui, se necessário. -->
+    </style>
+</resources>

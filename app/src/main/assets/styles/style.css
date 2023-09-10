@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/*estilos gerais*/
+:root {
+    --amarelo-principal:  #fece3c;
+    --amarelo-secundario: #e9be39;
+    --roxo-principal: #671761;
+    --cor-fonte: #404040;
+    --fonte-titulo: 'Roboto', sans-serif;
+    --fonte-texto: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #FFFFFFFF;
+    color: var(--cor-fonte);
+}
+
+h3 {
+    font-family: var(--fonte-titulo);
+    color: #404040;
+}
+
+p {
+    font-family: var(--fonte-texto);
+    color: #404040;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: var(--amarelo-principal);
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    height: 12.5rem;
+}
+
+.cabecalho__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    font-weight: 900;
+    justify-content: center;
+}
+
+.voltar {
+    align-self: flex-start;
+    padding: 4% 4%;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/*Página: gestão veicular*/
+
+.ajuda {
+    align-self: flex-end;
+    padding: 2% 2%;
+}
+
+.conteudo__caixa__1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: #f5f5f5;
+    padding: 0.5rem 0.5rem 1.5rem 1rem;
+    border: 0.15rem solid #f5f5f5;
+    border-radius: 2rem;
+    box-shadow: inset 0px -10px 5px gray;
+    height: 5rem;
+}
+
+.favorito__caixa__1 {
+    align-self:flex-start;
+}
+
+.conteudo__caixa__2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    background-color: #f5f5f5;
+    padding: 2rem 1rem;
+    border: 0.15rem solid #f5f5f5;
+    border-radius: 2rem;
+    box-shadow: inset 0px -10px 5px gray;
+}
+
+.conteudo__caixa__3{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    background-color: #f5f5f5;
+    padding: 2rem 1rem;
+    border: 0.15rem solid #f5f5f5;
+    border-radius: 2rem;
+    box-shadow: inset 0px -10px 5px gray;
+}
+
+/*Página: Ajuda*/
+
+.titulo__ajuda {
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+}
+
+/*Página: Veículo Conectado*/
+
+.cabecalho__carro {
+    display: flex;
+    background-color: var(--amarelo-principal);
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    height: 12.5rem;
+}
+
+.avancado {
+    align-self: flex-end;
+    padding: 0 2%;
+}
+
+.parte__cima {
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    justify-content: space-between;
+    gap: 4.2rem;
+}
+
+.conteudo__carro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    border: 0.15rem solid #f5f5f5;
+    border-radius: 2rem;
+    box-shadow: inset 0px -10px 5px gray;
+    width: 5rem;
+}
+
+/*Página: Avançado*/
+
+.item__avancado {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.25rem solid var(--roxo-principal);
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
